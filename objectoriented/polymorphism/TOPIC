@@ -1,0 +1,8 @@
+polymorphism,typeof polymorphism
+
+
+with inheritance we were able to reuse the functionality of
+ a given class then we added  onto it by creating new methods in the new class 
+
+ with runtime polymorphism we not only reused the functionality of a given class 
+ but we override it with new functionality as needed

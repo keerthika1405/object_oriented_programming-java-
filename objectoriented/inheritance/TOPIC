@@ -1,0 +1,48 @@
+1.Inheritances,Type of inheritance,Benefits
+2.scalibility ,reusability
+
+
+In java, we can achive inheritance by using keyword "extends"
+ Modification of superclass will automatically affect all subclass
+
+' relationship.
+class parent is inherited by class child
+all child class instances are also  parent class
+not all parent class instances are child class 
+
+
+' Benefits
+promote code reusability , scalability
+common propertis and functionality can written in one class(parent) 
+other class inherit the common class(parent) and add on unique functionality
+
+
+' Type of inheritance
+1.single-level: one super class , one sub class 
+ Syntax: class Subclass extends Superclass.
+
+2.hierarchical: one super class , many sub class
+class Subclass1 extends Superclass and class Subclass2 extends Superclass.
+
+3.multi-level :a class which is inherit from one class and also parent for another class
+ Syntax: class Subclass1 extends Superclass and class Subclass2 extends Subclass1.
+
+'below  two inheritance is not supported by java (class can only have one super class )
+' because it cause unnecessary complexity and are rarely required
+4.multiple : one sub class  inherit  behaviour of two super class
+5.hybrid: one sub class  inherit  behaviour of two super class and also that two super class being act like  a child for one new  parent class
+
+
+
+' inheritance not only make a program secure but also make a  more easier
+
+
+
+Shape Hierarchy:
+ Employee Management System:
+  Animal Kingdom:
+  food delivery app
+
+
+
+
